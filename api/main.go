@@ -13,9 +13,9 @@ import (
 var (
 	// 配置信息
 	oss = &Oss{
-		Bucket:   "xuthus",                                       //Bucket名称
-		Ak:       "LTAIeNu9L0MzBtJH",                             //Accesskey
-		Sk:       "3WIo0HtVYaqm9bawbjhIJ3gIEyErzd",               //Secretkey
+		Bucket:   "-",                                            //Bucket名称
+		Ak:       "-",                                            //Accesskey
+		Sk:       "-",                                            //Secretkey
 		Endpoint: "oss-cn-shanghai.aliyuncs.com",                 //地域节点
 		Domain:   "https://xuthus.oss-cn-shanghai.aliyuncs.com/", //OSS外网访问域名 [结尾请带/]
 	}
